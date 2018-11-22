@@ -14,10 +14,6 @@ import com.co.bancolombia.juang.sender.Sender;
 @RequestMapping("kafka")
 public class UserController {
 
-	//@Autowired
-	//private KafkaTemplate<String, User> kafkaTemplate;
-	//private KafkaTemplate<String, String> kafkaTemplate;
-	
 	@Autowired
     Sender sender;
 
@@ -26,8 +22,6 @@ public class UserController {
 	@GetMapping("/publish/{name}")
 	public String post(@PathVariable("name") final String name) {
 		sender.send(new User(name, "Technology", 12000L) );
-		//kafkaTemplate.send(TOPIC, new User(name, "Technology", 12000L));
-		//kafkaTemplate.send(TOPIC, name);
 		return "Published successfully: " + name;
 	}
 

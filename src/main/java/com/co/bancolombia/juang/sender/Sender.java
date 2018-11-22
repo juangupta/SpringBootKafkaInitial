@@ -11,7 +11,6 @@ public class Sender {
 
     private final KafkaTemplate<String, User> kafkaTemplate;
 
-
     @Value("${juang.topic}")
     private String topic;
 
