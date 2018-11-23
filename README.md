@@ -2,9 +2,13 @@
 
 
 # Kafka
-
 https://kafka.apache.org/quickstart
 
+
+
+# Descargar Kafka
+
+https://www.apache.org/dyn/closer.cgi?path=/kafka/2.1.0/kafka_2.11-2.1.0.tgz
 
 # Iniciar zookeeper
 
