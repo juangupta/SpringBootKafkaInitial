@@ -30,6 +30,6 @@ bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 -
 bin/kafka-topics.sh --list --zookeeper localhost:2181
 
 
-# Ver los mensajes entrarntes al servidoe
+# Ver los mensajes entrarntes al servidor
 
 bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
