@@ -40,7 +40,7 @@ public class KakfaConfiguration {
         config.put("sasl.mechanism","GSSAPI");
         config.put("sasl.kerberos.service.name","kafka");
         //config.put("sasl.jaas.config","com.sun.security.auth.module.Krb5LoginModule required useKeyTab=true storeKey=true keyTab=\"/Users/juagomez/Bancolombia/riportil2.keytab\" principal=\"riportil@AMBIENTESBC.LAB\";");
-        config.put("ssl.truststore.location","/Users/juagomez/Bancolombia/OneDrive - Grupo Bancolombia/Tutoriales/Examples/SSLSpringbootKafkaProducer/src/main/resources/jssecacertsqa");
+        config.put("ssl.truststore.location","/Users/juagomez/Bancolombia/OneDrive - Grupo Bancolombia/Tutoriales/Examples/SSLSpringbootKafkaProducer/src/main/resources/cacertsqa");
         config.put("ssl.truststore.password","changeit");
         //config.put("ssl.truststore.location","/Users/juagomez/Bancolombia/OneDrive - Grupo Bancolombia/Tutoriales/Examples/SSLSpringbootKafkaProducer/src/main/resources/kafka.client.truststore.jks");
         //config.put("ssl.truststore.password","test1234");

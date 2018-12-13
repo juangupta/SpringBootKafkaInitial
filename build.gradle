@@ -1,6 +1,6 @@
 buildscript {
 	ext {
-		springBootVersion = '1.5.12.RELEASE'
+		springBootVersion = '1.5.9.RELEASE'
 	}
 	repositories {
 		mavenCentral()
@@ -26,7 +26,7 @@ repositories {
 
 dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-web')
-	implementation('org.springframework.kafka:spring-kafka:1.2.3.RELEASE')
+	implementation('org.springframework.kafka:spring-kafka:1.2.0.RELEASE')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 	testImplementation('org.springframework.kafka:spring-kafka-test')
 }
