@@ -1,8 +1,1 @@
 server.port: 8081
-juang.topic: PRUEBATRES
-#spring.kafka.bootstrap-servers: localhost:9093
-#spring.kafka.producer.key-serializer: org.apache.kafka.common.serialization.StringSerializer
-#spring.kafka.producer.value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
-#spring.kafka.producer.ssl.truststore-location: classpath:kafka.client.truststore.jks
-#spring.kafka.producer.ssl.truststore-password: test1234
-#spring.kafka.properties.security.protocol: SSL
